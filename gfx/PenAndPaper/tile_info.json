@@ -1,0 +1,18 @@
+[
+  {
+    "pixelscale": 1,
+    "width": 48,
+    "height": 48,
+    "iso": false,
+    "retract_dist_min": 1.0,
+    "retract_dist_max": 2.0
+  },
+  {
+    "overmap.png": {}
+  },
+  {
+    "fallback.png": {
+      "fallback": true
+    }
+  }
+]

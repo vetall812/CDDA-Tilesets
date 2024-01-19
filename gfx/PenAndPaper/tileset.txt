@@ -1,0 +1,4 @@
+NAME: PenAndPaper
+VIEW: P&P_overmap
+JSON: tile_config.json
+TILESET: tiles.png
