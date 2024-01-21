@@ -11,6 +11,24 @@
     "overmap.png": {}
   },
   {
+    "icons.png": {
+      "sprite_width": 96,
+      "sprite_height": 96,
+      "sprite_offset_x": -48,
+      "sprite_offset_y": -48,
+      "sprites_across": 4
+    }
+  },
+  {
+    "ruler.png": {
+      "sprite_width": 288,
+      "sprite_height": 144,
+      "sprite_offset_x": -240,
+      "sprite_offset_y": -96,
+      "sprites_across": 1
+    }
+  },
+  {
     "fallback.png": {
       "fallback": true
     }
