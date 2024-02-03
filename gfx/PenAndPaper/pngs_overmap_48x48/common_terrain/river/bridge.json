@@ -1,7 +1,10 @@
 [
   {
-    "id": "bridgehead_ground",
-    "fg": [ "bridge_v1_end_piece_n", "bridge_v1_end_piece_e", "bridge_v1_end_piece_s", "bridge_v1_end_piece_w" ],
+    "id": [
+      "bridgehead_ground",
+      "bridgehead_ramp"
+    ],
+    "fg": [ "bridge_v1_end_piece_n", "bridge_v1_end_piece_w", "bridge_v1_end_piece_s", "bridge_v1_end_piece_e" ],
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
@@ -32,7 +35,10 @@
     "rotates": true
   },
   {
-    "id": "bridge",
+    "id": [
+      "bridge",
+      "bridge_road"
+    ],
     "fg": [ "bridge_v1_edge_ns", "bridge_v1_edge_ew", "bridge_v1_edge_ns", "bridge_v1_edge_ew" ],
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
