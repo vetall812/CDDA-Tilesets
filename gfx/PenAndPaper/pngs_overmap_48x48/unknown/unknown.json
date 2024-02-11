@@ -1,6 +1,6 @@
 [
   {
-    "id": ["unknown_terrain", "solid_earth", "open_air"],
+    "id": ["unknown_terrain"],
     "fg": [
       { "weight": 1, "sprite": "unknown_00" },
       { "weight": 1, "sprite": "unknown_01" },
