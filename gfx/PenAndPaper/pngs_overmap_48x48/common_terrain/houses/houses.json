@@ -2,10 +2,10 @@
   {
     "id": [
       "basement", "basement_weed", "basement_bionic_decay", "basement_chem", "basement_survival", "basement_bionic_decoy", "basement_hidden_lab_stairs", "basement_meth",
-      "2storymodern01", "2storymodern01_roof", "2storymodern01_basement", "2storymodern01_second", "2storymodern01_first",
-      "2storymodern02_1", "2storymodern02_roof", "2storymodern02_basement", "2storymodern02_2",
-      "2storymodern03",
-      "2storymodern04",
+      "2storyModern01", "2storyModern01_roof", "2storyModern01_basement", "2storyModern01_second", "2storyModern01_first",
+      "2storyModern02_1", "2storyModern02_roof", "2storyModern02_basement", "2storyModern02_2",
+      "2storyModern03",
+      "2storyModern04",
       "bungalow01",
       "bungalow02",
       "bungalow03",
@@ -167,6 +167,8 @@
       "urban_2_2", "urban_2_4", "urban_2_6", "urban_2_2_basement",
       "urban_2_house",
       "urban_20_house",
+      "urban_25_1", "urban_25_3", "urban_25_5", "urban_25_7", "urban_25_9", "urban_25_11",
+      "urban_25_2", "urban_25_4", "urban_25_6", "urban_25_8", "urban_25_10", "urban_25_12",
       "urban_29_1",
       "urban_29_2",
       "urban_29_3",
