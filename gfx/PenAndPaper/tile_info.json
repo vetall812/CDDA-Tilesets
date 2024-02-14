@@ -16,6 +16,22 @@
       "sprite_height": 96,
       "sprite_offset_x": -48,
       "sprite_offset_y": -48,
+      "sprites_across": 2
+    }
+  },
+  {
+    "icons-h.png": {
+      "sprite_width": 96,
+      "sprite_height": 48,
+      "sprite_offset_x": -48,
+      "sprites_across": 2
+    }
+  },
+  {
+    "icons-v.png": {
+      "sprite_width": 48,
+      "sprite_height": 96,
+      "sprite_offset_y": -48,
       "sprites_across": 4
     }
   },
