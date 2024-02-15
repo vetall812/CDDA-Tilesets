@@ -1,13 +1,12 @@
 [
   {
     "id": [
-      "s_garage", "s_garage_roof",
-      "s_garage_1", "s_garage_roof_1",
-      "s_garage_2", "s_garage_roof_2", "s_garage_upper_roof_2",
-      "garage_gas_3", "garage_gas_roof_3"
+      "garage_gas_1", "garage_gas_roof_1",
+      "s_gas", "s_gas_roof",
+      "s_gas_1", "s_gas_roof_1"
     ],
     "rotates": false,
-    "fg": "garage",
+    "fg": "gas_station",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
