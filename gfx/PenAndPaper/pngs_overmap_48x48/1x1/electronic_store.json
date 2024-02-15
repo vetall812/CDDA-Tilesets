@@ -1,13 +1,10 @@
 [
   {
     "id": [
-      "clothing_store",
-      "s_clothes_1", "s_clothes_roof_1",
-      "s_clothes_2", "s_clothes_roof_2",
-      "s_clothes_3", "s_clothes_roof_3",
-      "s_clothes_4", "s_clothes_roof_4"
+      "s_electronics", "s_electronics_roof",
+      "s_electronics_1", "s_electronics_roof_1"
     ],
-    "fg": "clothing_store",
+    "fg": "electronic_store",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
