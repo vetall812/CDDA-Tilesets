@@ -1,13 +1,9 @@
 [
   {
     "id": [
-      "clothing_store",
-      "s_clothes_1", "s_clothes_roof_1",
-      "s_clothes_2", "s_clothes_roof_2",
-      "s_clothes_3", "s_clothes_roof_3",
-      "s_clothes_4", "s_clothes_roof_4"
+      "icecream_shop", "icecream_shop_roof"
     ],
-    "fg": "clothing_store",
+    "fg": "icecream_shop",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
