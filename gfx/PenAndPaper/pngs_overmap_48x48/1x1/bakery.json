@@ -1,11 +1,10 @@
 [
   {
     "id": [
-      "radio_tower", "radio_tower_odd", "radio_tower_even", "radio_tower_top",
-      "radio_tower_1", "radio_tower_odd_1", "radio_tower_even_1", "radio_tower_top_1",
-      "station_radio_1", "station_radio_roof_1", "station_radio_1_tower_even", "station_radio_1_tower_odd", "station_radio_1_tower_top"
+      "bakery", "bakery_roof", "bakery_upper_roof"
     ],
-    "fg": "radio_tower",
+    "rotates": false,
+    "fg": "bakery",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },

@@ -1,11 +1,16 @@
 [
   {
     "id": [
-      "radio_tower", "radio_tower_odd", "radio_tower_even", "radio_tower_top",
-      "radio_tower_1", "radio_tower_odd_1", "radio_tower_even_1", "radio_tower_top_1",
-      "station_radio_1", "station_radio_roof_1", "station_radio_1_tower_even", "station_radio_1_tower_odd", "station_radio_1_tower_top"
+      "pool", "pool_roof",
+      "pool_1", "pool_roof_1",
+      "pool_2", "pool_roof_2",
+      "pool_3", "pool_roof_3",
+      "pool_4", "pool_roof_4",
+      "pool_5", "pool_roof_5",
+      "pool_6", "pool_roof_6"
     ],
-    "fg": "radio_tower",
+    "rotates": false,
+    "fg": "pool",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
