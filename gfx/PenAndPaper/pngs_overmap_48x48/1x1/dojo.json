@@ -1,13 +1,10 @@
 [
   {
     "id": [
-      "s_garage", "s_garage_roof",
-      "s_garage_1", "s_garage_roof_1",
-      "s_garage_2", "s_garage_roof_2", "s_garage_upper_roof_2",
-      "garage_gas_3", "garage_gas_roof_3"
+      "dojo",
+      "dojo_1", "dojo_roof_1"
     ],
-    "rotates": false,
-    "fg": "garage",
+    "fg": "dojo",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
