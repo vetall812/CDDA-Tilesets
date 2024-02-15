@@ -1,8 +1,7 @@
 [
   {
     "id": [
-      "dollarstore", "dollarstore_roof",
-      "garage_gas_2", "garage_gas_roof_2"
+      "dollarstore", "dollarstore_roof"
     ],
     "rotates": false,
     "fg": "dollar_store",
