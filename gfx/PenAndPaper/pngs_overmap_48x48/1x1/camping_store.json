@@ -1,14 +1,10 @@
 [
   {
     "id": [
-      "s_gun", "s_gun_roof",
-      "s_gun_1", "s_gun_roof_1",
-      "s_gun_2", "s_gun_roof_2",
-      "s_gun_3", "s_gun_roof_3",
-      "s_gun_4", "s_gun_roof_4", "s_gun_2ndfloor_4"
+      "s_camping", "s_camping_roof"
     ],
     "rotates": false,
-    "fg": "gun_store",
+    "fg": "camping_store",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },

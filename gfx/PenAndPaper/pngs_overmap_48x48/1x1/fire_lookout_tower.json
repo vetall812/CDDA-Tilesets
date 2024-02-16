@@ -1,14 +1,10 @@
 [
   {
     "id": [
-      "s_gun", "s_gun_roof",
-      "s_gun_1", "s_gun_roof_1",
-      "s_gun_2", "s_gun_roof_2",
-      "s_gun_3", "s_gun_roof_3",
-      "s_gun_4", "s_gun_roof_4", "s_gun_2ndfloor_4"
+      "ws_fire_lookout_tower_base", "ws_fire_lookout_tower_f1", "ws_fire_lookout_tower_f2", "ws_fire_lookout_tower_f3", "ws_fire_lookout_tower_f4", "ws_fire_lookout_tower_f5"
     ],
     "rotates": false,
-    "fg": "gun_store",
+    "fg": "fire_lookout_tower",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },

@@ -1,14 +1,10 @@
 [
   {
     "id": [
-      "s_gun", "s_gun_roof",
-      "s_gun_1", "s_gun_roof_1",
-      "s_gun_2", "s_gun_roof_2",
-      "s_gun_3", "s_gun_roof_3",
-      "s_gun_4", "s_gun_roof_4", "s_gun_2ndfloor_4"
+      "cs_city_dump_small"
     ],
     "rotates": false,
-    "fg": "gun_store",
+    "fg": "small_dump",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
