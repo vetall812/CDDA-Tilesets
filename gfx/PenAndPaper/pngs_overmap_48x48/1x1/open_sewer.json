@@ -1,9 +1,9 @@
 [
   {
     "id": [
-      "gym", "gym_roof", "gym_upper_roof"
+      "cs_open_sewer"
     ],
-    "fg": "boxing_gym",
+    "fg": "open_sewer",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },

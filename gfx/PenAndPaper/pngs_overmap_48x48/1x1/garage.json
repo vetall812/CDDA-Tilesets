@@ -4,7 +4,8 @@
       "s_garage", "s_garage_roof",
       "s_garage_1", "s_garage_roof_1",
       "s_garage_2", "s_garage_roof_2", "s_garage_upper_roof_2",
-      "garage_gas_3", "garage_gas_roof_3"
+      "garage_gas_3", "garage_gas_roof_3",
+      "cs_tire_shop", "cs_tire_shop_roof"
     ],
     "rotates": false,
     "fg": "garage",

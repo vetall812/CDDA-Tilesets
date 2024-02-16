@@ -1,7 +1,7 @@
 [
   {
     "id": [
-      "dojo",
+      "dojo", "dojo_roof", "dojo_upper_roof",
       "dojo_1", "dojo_roof_1", "dojo_upper_roof_1"
     ],
     "fg": "dojo",
