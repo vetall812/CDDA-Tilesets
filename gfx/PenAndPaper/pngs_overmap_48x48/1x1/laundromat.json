@@ -1,9 +1,9 @@
 [
   {
     "id": [
-      "gym", "gym_roof", "gym_upper_roof"
+      "s_laundromat", "s_laundromat_roof"
     ],
-    "fg": "boxing_gym",
+    "fg": "laundromat",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
