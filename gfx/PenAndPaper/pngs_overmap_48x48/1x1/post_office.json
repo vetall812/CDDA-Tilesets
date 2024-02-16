@@ -1,14 +1,10 @@
 [
   {
     "id": [
-      "radio_tower", "radio_tower_odd", "radio_tower_even", "radio_tower_top",
-      "radio_tower_1", "radio_tower_odd_1", "radio_tower_even_1", "radio_tower_top_1",
-      "station_radio_1", "station_radio_roof_1", "station_radio_1_tower_even", "station_radio_1_tower_odd", "station_radio_1_tower_top",
-      "wasp_tower", "wasp_tower_even", "wasp_tower_odd", "wasp_tower_top", "wasp_tower_roof",
-      "wasp_tower_1", "wasp_tower_even_1", "wasp_tower_odd_1", "wasp_tower_top_1", "wasp_tower_roof_1",
-      "wasp_tower_2", "wasp_tower_even_2", "wasp_tower_odd_2", "wasp_tower_top_2", "wasp_tower_roof_2"
+      "post_office", "post_office_roof",
+      "post_office_1", "post_office_roof_1"
     ],
-    "fg": "radio_tower",
+    "fg": "post_office",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
