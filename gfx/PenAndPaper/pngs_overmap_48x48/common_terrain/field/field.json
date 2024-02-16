@@ -1,6 +1,10 @@
 [
   {
-    "id": "field",
+    "id": [
+      "field",
+      "emptyresidentiallot", "emptycommerciallot"
+
+    ],
     "fg": [
       { "weight": 150, "sprite": "empty" },
       { "weight": 1, "sprite": "field_01" },

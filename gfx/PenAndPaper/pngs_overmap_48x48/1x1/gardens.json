@@ -3,7 +3,8 @@
     "id": [
       "publicgarden",
       "publicgarden_1", "publicgarden_2", "publicgarden_3",
-      "park", "park_1", "park_2", "park_3", "park_4", "park_5", "park_6", "park_7"
+      "park", "park_1", "park_2", "park_3", "park_4", "park_5", "park_6", "park_7",
+      "park_roof", "park_1_roof", "park_2_roof", "park_3_roof", "park_4_roof", "park_5_roof", "park_6_roof", "park_7_roof"
     ],
     "fg": "public_garden",
     "bg": [
@@ -137,7 +138,7 @@
   },
   {
     "id": [
-      "cs_private_park"
+      "cs_private_park", "cs_private_park_roof"
     ],
     "fg": "private_park",
     "bg": [
