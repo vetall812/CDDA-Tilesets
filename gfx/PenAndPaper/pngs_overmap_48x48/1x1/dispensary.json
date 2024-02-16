@@ -1,11 +1,11 @@
 [
   {
     "id": [
-      "craft_shop", "craft_shop_roof", "craft_shop_upper_roof",
-      "craft_shop_1", "craft_shop_roof_1",
-      "craft_shop_2", "craft_shop_roof_2", "craft_shop_2ndfloor_2"
+      "dispensary", "dispensary_roof",
+      "dispensary_1", "dispensary_roof_1",
+      "dispensary_2", "dispensary_roof_2"
     ],
-    "fg": "craft",
+    "fg": "dispensary",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },

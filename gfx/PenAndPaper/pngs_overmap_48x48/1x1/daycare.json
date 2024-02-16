@@ -1,11 +1,9 @@
 [
   {
     "id": [
-      "craft_shop", "craft_shop_roof", "craft_shop_upper_roof",
-      "craft_shop_1", "craft_shop_roof_1",
-      "craft_shop_2", "craft_shop_roof_2", "craft_shop_2ndfloor_2"
+      "s_daycare", "s_daycare_roof"
     ],
-    "fg": "craft",
+    "fg": "daycare",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
