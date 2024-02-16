@@ -1,9 +1,11 @@
 [
   {
     "id": [
-      "cs_car_showroom", "cs_car_showroom_roof", "cs_car_showroom_2ndfloor"
+      "lancenter", "lancenter_roof",
+      "lancenter_1", "lancenter_roof_1"
     ],
-    "fg": "car_show_room",
+    "rotates": false,
+    "fg": "lan_center",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },

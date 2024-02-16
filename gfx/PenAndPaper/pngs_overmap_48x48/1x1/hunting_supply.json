@@ -1,9 +1,10 @@
 [
   {
     "id": [
-      "cs_car_showroom", "cs_car_showroom_roof", "cs_car_showroom_2ndfloor"
+      "s_hunting", "s_hunting_roof"
     ],
-    "fg": "car_show_room",
+    "rotates": false,
+    "fg": "hunting_supply",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
