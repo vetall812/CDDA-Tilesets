@@ -1,13 +1,9 @@
 [
   {
     "id": [
-      "s_restaurant_coffee", "s_restaurant_coffee_roof",
-      "s_restaurant_coffee_1", "s_restaurant_coffee_roof_1",
-      "s_restaurant_coffee_2", "s_restaurant_coffee_roof_2",
-      "s_teashop", "s_teashop_roof", "s_teashop_upper_roof",
-      "s_teashop_1", "s_teashop_roof_1", "s_teashop_upper_roof_1"
+      "office_cubical", "office_cubical_roof"
     ],
-    "fg": "coffee",
+    "fg": "office",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
