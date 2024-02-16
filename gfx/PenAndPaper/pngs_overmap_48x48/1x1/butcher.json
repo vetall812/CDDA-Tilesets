@@ -1,9 +1,11 @@
 [
   {
     "id": [
-      "cs_car_showroom", "cs_car_showroom_roof", "cs_car_showroom_2ndfloor"
+      "s_butcher", "s_butcher_roof", "s_butcher_upper_roof",
+      "s_butcher_1", "s_butcher_roof_1", "s_butcher_upper_roof_1"
     ],
-    "fg": "car_show_room",
+    "rotates": false,
+    "fg": "butcher",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
