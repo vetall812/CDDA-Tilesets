@@ -1,13 +1,10 @@
 [
   {
     "id": [
-      "s_restaurant_coffee", "s_restaurant_coffee_roof",
-      "s_restaurant_coffee_1", "s_restaurant_coffee_roof_1",
-      "s_restaurant_coffee_2", "s_restaurant_coffee_roof_2",
-      "s_teashop", "s_teashop_roof", "s_teashop_upper_roof",
-      "s_teashop_1", "s_teashop_roof_1", "s_teashop_upper_roof_1"
+      "paintball_field", "paintball_field_roof",
+      "paintball_field_1", "paintball_field_roof_1"
     ],
-    "fg": "coffee",
+    "fg": "paintball",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
