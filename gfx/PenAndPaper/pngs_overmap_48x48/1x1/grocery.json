@@ -4,7 +4,7 @@
       "s_grocery", "s_grocery_roof",
       "s_grocery_1", "s_grocery_roof_1"
     ],
-    "fg": "s_grocery",
+    "fg": "grocery",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
