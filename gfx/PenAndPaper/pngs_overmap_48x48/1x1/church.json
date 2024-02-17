@@ -5,9 +5,6 @@
       "church_1", "church_2ndfloor_1", "church_3rdfloor_1", "church_roof_1"
     ],
     "fg": "church",
-    "bg": [
-      { "weight": 1, "sprite": "bg_high" }
-    ]
-
+    "bg": "bg_high"
   }
 ]

@@ -5,8 +5,6 @@
     ],
     "rotates": false,
     "fg": "fire_lookout_tower",
-    "bg": [
-      { "weight": 1, "sprite": "bg_high" }
-    ]
+    "bg": "bg_high"
   }
 ]
