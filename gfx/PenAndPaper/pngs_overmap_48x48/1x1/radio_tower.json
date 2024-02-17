@@ -9,8 +9,6 @@
       "wasp_tower_2", "wasp_tower_even_2", "wasp_tower_odd_2", "wasp_tower_top_2", "wasp_tower_roof_2"
     ],
     "fg": "radio_tower",
-    "bg": [
-      { "weight": 1, "sprite": "bg_high" }
-    ]
+    "bg": "bg_high"
   }
 ]

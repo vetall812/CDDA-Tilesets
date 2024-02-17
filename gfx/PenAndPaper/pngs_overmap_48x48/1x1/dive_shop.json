@@ -1,11 +1,10 @@
 [
   {
     "id": [
-      "s_electronics", "s_electronics_roof", "s_electronics_2ndfloor",
-      "s_electronicstore", "s_electronicstore_roof", "s_electronicstore_2ndfloor",
-      "s_electronics_1", "s_electronics_roof_1"
+      "s_dive_shop", "s_dive_shop_roof"
     ],
-    "fg": "electronic_store",
+    "rotates": false,
+    "fg": "dive_shop",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },

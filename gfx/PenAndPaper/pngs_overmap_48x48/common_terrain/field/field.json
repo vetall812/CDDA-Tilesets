@@ -2,8 +2,8 @@
   {
     "id": [
       "field",
-      "emptyresidentiallot", "emptycommerciallot"
-
+      "emptyresidentiallot", "emptycommerciallot",
+      "pottery_cottage_field", "pottery_cottage_field_2nd", "pottery_cottage_field_roof"
     ],
     "fg": [
       { "weight": 150, "sprite": "empty" },
