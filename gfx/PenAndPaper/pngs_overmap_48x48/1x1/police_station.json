@@ -2,7 +2,8 @@
   {
     "id": [
       "police", "police_roof",
-      "police_1", "police_roof_1", "police_2ndfloor_1"
+      "police_1", "police_roof_1", "police_2ndfloor_1",
+      "police_2", "police_roof_2", "police_upper_roof_2"
     ],
     "rotates": false,
     "fg": "police_station",

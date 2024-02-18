@@ -1,7 +1,8 @@
 [
   {
     "id": [
-      "salon", "salon_roof"
+      "salon", "salon_roof",
+      "barber_shop", "barber_shop_roof"
     ],
     "rotates": false,
     "fg": "salon",
