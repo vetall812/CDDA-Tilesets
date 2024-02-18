@@ -3,6 +3,8 @@
     "id": [
       "s_library", "s_library_roof",
       "s_library_1", "s_library_roof_1",
+      "s_library_2", "s_library_roof_2",
+      "s_library_3", "s_library_roof_3",
       "s_bookstore", "s_bookstore_roof",
       "s_bookstore_1", "s_bookstore_roof_1"
     ],

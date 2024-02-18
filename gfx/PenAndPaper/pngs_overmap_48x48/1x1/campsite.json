@@ -4,7 +4,8 @@
       "campsite",
       "campsite_a",
       "campsite_field_biker", "campsite_field_biker_destroyed",
-      "homelesscamp","homelesscamp_npc"
+      "homelesscamp","homelesscamp_npc",
+      "survivor_forest_camp"
     ],
     "fg": "campsite",
     "bg": [
