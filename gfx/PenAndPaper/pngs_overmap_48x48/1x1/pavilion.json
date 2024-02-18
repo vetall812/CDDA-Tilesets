@@ -3,7 +3,8 @@
     "id": [
       "pavilion", "pavilion_roof",
       "pavilion_1", "pavilion_roof_1",
-      "pavilion_2", "pavilion_roof_2"
+      "pavilion_2", "pavilion_roof_2",
+      "trailer_public_10", "trailer_public_10_roof"
     ],
     "fg": "pavilion",
     "bg": [

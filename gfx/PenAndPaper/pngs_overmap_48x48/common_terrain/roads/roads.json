@@ -1,9 +1,7 @@
 {
   "id": [
     "road",
-    "road_dirt",
-    "road_dirt_forest",
-    "road_rural"
+    "city_center"
   ],
   "fg": "road_v5_center",
   "bg": [

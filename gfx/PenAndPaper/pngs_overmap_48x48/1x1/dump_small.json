@@ -1,10 +1,11 @@
 [
   {
     "id": [
-      "cs_city_dump_small"
+      "cs_city_dump_small",
+      "trailer_public_00", "trailer_public_00_roof"
     ],
     "rotates": false,
-    "fg": "small_dump",
+    "fg": "dump_small",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },

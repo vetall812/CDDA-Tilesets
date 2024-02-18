@@ -1,0 +1,165 @@
+[
+  {
+    "id": [
+      "dirt_road_4way",
+      "dirt_road_4way_forest"
+    ],
+    "fg": [
+      { "weight": 1, "sprite": "dirt_v1_center" },
+      { "weight": 1, "sprite": "dirt_v2_center" },
+      { "weight": 1, "sprite": "dirt_v3_center" },
+      { "weight": 1, "sprite": "dirt_v4_center" },
+      { "weight": 1, "sprite": "dirt_v5_center" }
+    ],
+    "bg": [
+      { "weight": 1, "sprite": "bg_00" },
+      { "weight": 1, "sprite": "bg_01" },
+      { "weight": 1, "sprite": "bg_02" },
+      { "weight": 1, "sprite": "bg_03" },
+      { "weight": 1, "sprite": "bg_04" },
+      { "weight": 1, "sprite": "bg_05" },
+      { "weight": 1, "sprite": "bg_06" },
+      { "weight": 1, "sprite": "bg_07" },
+      { "weight": 1, "sprite": "bg_08" },
+      { "weight": 1, "sprite": "bg_09" },
+      { "weight": 1, "sprite": "bg_10" },
+      { "weight": 1, "sprite": "bg_11" },
+      { "weight": 1, "sprite": "bg_12" },
+      { "weight": 1, "sprite": "bg_13" },
+      { "weight": 1, "sprite": "bg_14" },
+      { "weight": 1, "sprite": "bg_15" },
+      { "weight": 1, "sprite": "bg_16" },
+      { "weight": 1, "sprite": "bg_17" },
+      { "weight": 1, "sprite": "bg_18" },
+      { "weight": 1, "sprite": "bg_19" },
+      { "weight": 1, "sprite": "bg_20" },
+      { "weight": 1, "sprite": "bg_21" },
+      { "weight": 1, "sprite": "bg_22" },
+      { "weight": 1, "sprite": "bg_23" },
+      { "weight": 1, "sprite": "bg_24" }
+    ]
+  },
+  {
+    "id": [
+      "dirt_road", "dirt_road_turnback",
+      "dirt_road_farm_parking", "dirt_road_forest"
+    ],
+    "rotates": true,
+    "fg": [
+      { "weight": 1, "sprite":[ "dirt_v1_edge_ns", "dirt_v1_edge_ew" ] },
+      { "weight": 1, "sprite":[ "dirt_v2_edge_ns", "dirt_v2_edge_ew" ] },
+      { "weight": 1, "sprite":[ "dirt_v3_edge_ns", "dirt_v3_edge_ew" ] },
+      { "weight": 1, "sprite":[ "dirt_v4_edge_ns", "dirt_v4_edge_ew" ] },
+      { "weight": 1, "sprite":[ "dirt_v5_edge_ns", "dirt_v5_edge_ew" ] }
+    ],
+    "bg": [
+      { "weight": 1, "sprite": "bg_00" },
+      { "weight": 1, "sprite": "bg_01" },
+      { "weight": 1, "sprite": "bg_02" },
+      { "weight": 1, "sprite": "bg_03" },
+      { "weight": 1, "sprite": "bg_04" },
+      { "weight": 1, "sprite": "bg_05" },
+      { "weight": 1, "sprite": "bg_06" },
+      { "weight": 1, "sprite": "bg_07" },
+      { "weight": 1, "sprite": "bg_08" },
+      { "weight": 1, "sprite": "bg_09" },
+      { "weight": 1, "sprite": "bg_10" },
+      { "weight": 1, "sprite": "bg_11" },
+      { "weight": 1, "sprite": "bg_12" },
+      { "weight": 1, "sprite": "bg_13" },
+      { "weight": 1, "sprite": "bg_14" },
+      { "weight": 1, "sprite": "bg_15" },
+      { "weight": 1, "sprite": "bg_16" },
+      { "weight": 1, "sprite": "bg_17" },
+      { "weight": 1, "sprite": "bg_18" },
+      { "weight": 1, "sprite": "bg_19" },
+      { "weight": 1, "sprite": "bg_20" },
+      { "weight": 1, "sprite": "bg_21" },
+      { "weight": 1, "sprite": "bg_22" },
+      { "weight": 1, "sprite": "bg_23" },
+      { "weight": 1, "sprite": "bg_24" }
+    ]
+  },
+  {
+    "id": [
+      "dirt_road_3way",
+      "dirt_road_3way_forest"
+    ],
+    "rotates": true,
+    "fg": [
+      { "weight": 1, "sprite": [ "dirt_v1_t_connection_n", "dirt_v1_t_connection_w", "dirt_v1_t_connection_s", "dirt_v1_t_connection_e" ] },
+      { "weight": 1, "sprite": [ "dirt_v2_t_connection_n", "dirt_v2_t_connection_w", "dirt_v2_t_connection_s", "dirt_v2_t_connection_e" ] },
+      { "weight": 1, "sprite": [ "dirt_v3_t_connection_n", "dirt_v3_t_connection_w", "dirt_v3_t_connection_s", "dirt_v3_t_connection_e" ] },
+      { "weight": 1, "sprite": [ "dirt_v4_t_connection_n", "dirt_v4_t_connection_w", "dirt_v4_t_connection_s", "dirt_v4_t_connection_e" ] },
+      { "weight": 1, "sprite": [ "dirt_v5_t_connection_n", "dirt_v5_t_connection_w", "dirt_v5_t_connection_s", "dirt_v5_t_connection_e" ] }
+    ],
+    "bg": [
+      { "weight": 1, "sprite": "bg_00" },
+      { "weight": 1, "sprite": "bg_01" },
+      { "weight": 1, "sprite": "bg_02" },
+      { "weight": 1, "sprite": "bg_03" },
+      { "weight": 1, "sprite": "bg_04" },
+      { "weight": 1, "sprite": "bg_05" },
+      { "weight": 1, "sprite": "bg_06" },
+      { "weight": 1, "sprite": "bg_07" },
+      { "weight": 1, "sprite": "bg_08" },
+      { "weight": 1, "sprite": "bg_09" },
+      { "weight": 1, "sprite": "bg_10" },
+      { "weight": 1, "sprite": "bg_11" },
+      { "weight": 1, "sprite": "bg_12" },
+      { "weight": 1, "sprite": "bg_13" },
+      { "weight": 1, "sprite": "bg_14" },
+      { "weight": 1, "sprite": "bg_15" },
+      { "weight": 1, "sprite": "bg_16" },
+      { "weight": 1, "sprite": "bg_17" },
+      { "weight": 1, "sprite": "bg_18" },
+      { "weight": 1, "sprite": "bg_19" },
+      { "weight": 1, "sprite": "bg_20" },
+      { "weight": 1, "sprite": "bg_21" },
+      { "weight": 1, "sprite": "bg_22" },
+      { "weight": 1, "sprite": "bg_23" },
+      { "weight": 1, "sprite": "bg_24" }
+    ]
+  },
+  {
+    "id": [
+      "dirt_road_turn",
+      "dirt_road_turn_forest"
+    ],
+    "rotates": true,
+    "fg": [
+      { "weight": 1, "sprite": [ "dirt_v1_corner_ne", "dirt_v1_corner_nw", "dirt_v1_corner_sw", "dirt_v1_corner_se" ] },
+      { "weight": 1, "sprite": [ "dirt_v2_corner_ne", "dirt_v2_corner_nw", "dirt_v2_corner_sw", "dirt_v2_corner_se" ] },
+      { "weight": 1, "sprite": [ "dirt_v3_corner_ne", "dirt_v3_corner_nw", "dirt_v3_corner_sw", "dirt_v3_corner_se" ] },
+      { "weight": 1, "sprite": [ "dirt_v4_corner_ne", "dirt_v4_corner_nw", "dirt_v4_corner_sw", "dirt_v4_corner_se" ] },
+      { "weight": 1, "sprite": [ "dirt_v5_corner_ne", "dirt_v5_corner_nw", "dirt_v5_corner_sw", "dirt_v5_corner_se" ] }
+    ],
+    "bg": [
+      { "weight": 1, "sprite": "bg_00" },
+      { "weight": 1, "sprite": "bg_01" },
+      { "weight": 1, "sprite": "bg_02" },
+      { "weight": 1, "sprite": "bg_03" },
+      { "weight": 1, "sprite": "bg_04" },
+      { "weight": 1, "sprite": "bg_05" },
+      { "weight": 1, "sprite": "bg_06" },
+      { "weight": 1, "sprite": "bg_07" },
+      { "weight": 1, "sprite": "bg_08" },
+      { "weight": 1, "sprite": "bg_09" },
+      { "weight": 1, "sprite": "bg_10" },
+      { "weight": 1, "sprite": "bg_11" },
+      { "weight": 1, "sprite": "bg_12" },
+      { "weight": 1, "sprite": "bg_13" },
+      { "weight": 1, "sprite": "bg_14" },
+      { "weight": 1, "sprite": "bg_15" },
+      { "weight": 1, "sprite": "bg_16" },
+      { "weight": 1, "sprite": "bg_17" },
+      { "weight": 1, "sprite": "bg_18" },
+      { "weight": 1, "sprite": "bg_19" },
+      { "weight": 1, "sprite": "bg_20" },
+      { "weight": 1, "sprite": "bg_21" },
+      { "weight": 1, "sprite": "bg_22" },
+      { "weight": 1, "sprite": "bg_23" },
+      { "weight": 1, "sprite": "bg_24" }
+    ]
+  }
+]
