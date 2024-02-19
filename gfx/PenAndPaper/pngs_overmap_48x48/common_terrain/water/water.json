@@ -1,7 +1,7 @@
 [
   {
     "id": [
-      "lake_surface",
+      "lake_surface", "lake_water_cube", "lake_bed",
       "river_center"
     ],
     "fg": [
