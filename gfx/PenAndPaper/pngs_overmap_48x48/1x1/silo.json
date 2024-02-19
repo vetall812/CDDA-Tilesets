@@ -1,0 +1,10 @@
+[
+  {
+    "id": [
+      "2silos", "2silos_1", "2silos_2", "2silos_roof"
+    ],
+    "rotates": false,
+    "fg": "silo",
+    "bg": "bg_high"
+  }
+]
