@@ -2,7 +2,8 @@
   {
     "id": [
       "lake_surface", "lake_water_cube", "lake_bed",
-      "river_center"
+      "river_center",
+      "lake_cabin_water"
     ],
     "fg": [
       { "weight": 30, "sprite": "empty" },
