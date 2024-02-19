@@ -1,7 +1,8 @@
 [
   {
     "id": [
-      "cs_car_showroom", "cs_car_showroom_roof", "cs_car_showroom_2ndfloor"
+      "cs_car_showroom", "cs_car_showroom_roof", "cs_car_showroom_2ndfloor",
+      "cs_car_dealership", "cs_car_dealership_roof"
     ],
     "fg": "car_show_room",
     "bg": [

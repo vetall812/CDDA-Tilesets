@@ -1,7 +1,8 @@
 [
   {
     "id": [
-      "gambling_hall", "gambling_hall_roof"
+      "gambling_hall", "gambling_hall_roof",
+      "gambling_hall_1", "gambling_hall_roof_1"
     ],
     "rotates": false,
     "fg": "gambling_hall",

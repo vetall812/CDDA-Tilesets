@@ -1,7 +1,7 @@
 [
   {
     "id": [
-      "cs_open_sewer"
+      "cs_open_sewer", "cs_open_sewer_underground"
     ],
     "fg": "open_sewer",
     "bg": [
