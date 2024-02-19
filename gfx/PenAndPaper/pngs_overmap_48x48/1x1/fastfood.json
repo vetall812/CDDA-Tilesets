@@ -2,7 +2,8 @@
   {
     "id": [
       "s_restaurant_fast", "s_restaurant_fast_roof",
-      "s_restaurant_fast_1", "s_restaurant_fast_roof_1"
+      "s_restaurant_fast_1", "s_restaurant_fast_roof_1",
+      "roadstop_b", "roadstop_b_roof"
     ],
     "rotates": false,
     "fg": "fastfood",
