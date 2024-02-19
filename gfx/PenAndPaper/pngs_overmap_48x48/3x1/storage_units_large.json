@@ -1,12 +1,11 @@
 [
   {
     "id": [
-      "warehouse", "warehouse_roof",
-      "exowarehouse", "exowarehouse_2",
-      "exo_warehouse_1", "exo_warehouse_2"
+      "large_storage_units_1", "large_storage_units_roof_1",
+      "large_storage_units_2", "large_storage_units_roof_2",
+      "large_storage_units_3", "large_storage_units_roof_3"
     ],
-    "rotates": false,
-    "fg": "warehouse",
+    "fg": "storage_unit",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
