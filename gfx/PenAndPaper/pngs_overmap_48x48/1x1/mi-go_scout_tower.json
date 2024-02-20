@@ -1,0 +1,13 @@
+[
+  {
+    "id": [
+      "mi-go_scout_tower_1", "mi-go_scout_tower_2", "mi-go_scout_tower_3", "mi-go_scout_tower_4"
+    ],
+    "fg": [
+      "mi-go_scout_tower"
+    ],
+    "bg": [
+      "bg_high"
+    ]
+  }
+]
