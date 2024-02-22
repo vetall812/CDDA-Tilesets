@@ -1,11 +1,11 @@
 [
   {
     "id": [
-      "gambling_hall", "gambling_hall_roof", "gambling_hall_upper_roof",
-      "gambling_hall_1", "gambling_hall_roof_1"
+      "microlab_generic_surface", "microlab_generic_surface_roof",
+      "ice_lab_stairs"
     ],
     "rotates": false,
-    "fg": "gambling_hall",
+    "fg": "lab_surface",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },

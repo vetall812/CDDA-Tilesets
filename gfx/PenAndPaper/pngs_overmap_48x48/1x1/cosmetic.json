@@ -1,7 +1,10 @@
 [
   {
-    "id": "cemetery_small",
-    "fg": "small_cemetery",
+    "id": [
+      "s_cosmetic", "s_cosmetic_roof"
+    ],
+    "rotates": false,
+    "fg": "cosmetic",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },

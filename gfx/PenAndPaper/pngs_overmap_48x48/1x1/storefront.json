@@ -1,7 +1,7 @@
 [
   {
     "id": [
-      "cs_market_small"
+      "cs_market_small", "cs_market_small_roof"
     ],
     "rotates": false,
     "fg": "storefront",

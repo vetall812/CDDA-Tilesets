@@ -1,13 +1,10 @@
 [
   {
     "id": [
-      "publicgarden",
-      "publicgarden_1", "publicgarden_2", "publicgarden_3",
-      "park", "park_1", "park_2", "park_3", "park_4", "park_5", "park_6", "park_7",
-      "park_roof", "park_1_roof", "park_2_roof", "park_3_roof", "park_4_roof", "park_5_roof", "park_6_roof", "park_7_roof",
-      "small_wooded_trail", "small_wooded_trail_1", "small_wooded_trail_2"
+      "bunker", "bunker_roof", "bunker_basement", "bunker_basement_1"
     ],
-    "fg": "public_garden",
+    "rotates": false,
+    "fg": "mil_bunker",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
@@ -38,13 +35,11 @@
   },
   {
     "id": [
-      "communitygarden",
-      "communitygarden_1", "communitygarden_2", "communitygarden_3",
-      "cs_gardening_allotment", "cs_gardening_allotment_roof",
-      "orchard", "orchard_roof",
-      "orchard_1", "orchard_roof_1"
+      "outpost", "outpost_roof",
+      "outpost_cross", "outpost_cross_roof"
     ],
-    "fg": "community_garden",
+    "rotates": false,
+    "fg": "mil_outpost",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
@@ -75,9 +70,10 @@
   },
   {
     "id": [
-      "cs_public_art_piece"
+      "silo", "silo_roof"
     ],
-    "fg": "public_art_piece",
+    "rotates": false,
+    "fg": "mil_silo_top",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
@@ -108,42 +104,10 @@
   },
   {
     "id": [
-      "cs_public_space"
+      "silo_1", "silo_2", "silo_3", "silo_4", "silo_finale"
     ],
-    "fg": "public_space",
-    "bg": [
-      { "weight": 1, "sprite": "bg_00" },
-      { "weight": 1, "sprite": "bg_01" },
-      { "weight": 1, "sprite": "bg_02" },
-      { "weight": 1, "sprite": "bg_03" },
-      { "weight": 1, "sprite": "bg_04" },
-      { "weight": 1, "sprite": "bg_05" },
-      { "weight": 1, "sprite": "bg_06" },
-      { "weight": 1, "sprite": "bg_07" },
-      { "weight": 1, "sprite": "bg_08" },
-      { "weight": 1, "sprite": "bg_09" },
-      { "weight": 1, "sprite": "bg_10" },
-      { "weight": 1, "sprite": "bg_11" },
-      { "weight": 1, "sprite": "bg_12" },
-      { "weight": 1, "sprite": "bg_13" },
-      { "weight": 1, "sprite": "bg_14" },
-      { "weight": 1, "sprite": "bg_15" },
-      { "weight": 1, "sprite": "bg_16" },
-      { "weight": 1, "sprite": "bg_17" },
-      { "weight": 1, "sprite": "bg_18" },
-      { "weight": 1, "sprite": "bg_19" },
-      { "weight": 1, "sprite": "bg_20" },
-      { "weight": 1, "sprite": "bg_21" },
-      { "weight": 1, "sprite": "bg_22" },
-      { "weight": 1, "sprite": "bg_23" },
-      { "weight": 1, "sprite": "bg_24" }
-    ]
-  },
-  {
-    "id": [
-      "cs_private_park", "cs_private_park_roof"
-    ],
-    "fg": "private_park",
+    "rotates": false,
+    "fg": "mil_silo",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
