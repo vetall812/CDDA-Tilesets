@@ -2,6 +2,7 @@
   {
     "id": [
       "dump", "landfill",
+      "toxic_dump",
       "cs_city_dump_small",
       "trailer_public_00", "trailer_public_00_roof"
     ],

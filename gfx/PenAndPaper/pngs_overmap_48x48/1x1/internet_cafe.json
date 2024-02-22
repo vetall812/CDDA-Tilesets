@@ -1,11 +1,10 @@
 [
   {
     "id": [
-      "gambling_hall", "gambling_hall_roof", "gambling_hall_upper_roof",
-      "gambling_hall_1", "gambling_hall_roof_1"
+      "cs_internet_cafe", "cs_internet_cafe_roof", "cs_internet_cafe_upper_roof"
     ],
     "rotates": false,
-    "fg": "gambling_hall",
+    "fg": "internet_cafe",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },

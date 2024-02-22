@@ -1,7 +1,7 @@
 [
   {
     "id": [
-      "slimepit", "slimepit_top", "slimepit_bottom"
+      "slimepit", "slimepit_top", "slimepit_bottom", "slimepit_down"
     ],
     "fg": "slime_pit",
     "bg": [

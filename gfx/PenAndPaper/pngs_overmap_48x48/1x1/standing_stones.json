@@ -1,11 +1,10 @@
 [
   {
     "id": [
-      "gambling_hall", "gambling_hall_roof", "gambling_hall_upper_roof",
-      "gambling_hall_1", "gambling_hall_roof_1"
+      "standing_stones"
     ],
     "rotates": false,
-    "fg": "gambling_hall",
+    "fg": "standing_stones",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },
