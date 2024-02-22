@@ -1,6 +1,9 @@
 [
   {
-    "id": ["forest"],
+    "id": [
+      "forest",
+      "lumbermill_dforest"
+    ],
     "fg": [
       { "weight": 1, "sprite": "forest_var_00" },
       { "weight": 1, "sprite": "forest_var_01" },
