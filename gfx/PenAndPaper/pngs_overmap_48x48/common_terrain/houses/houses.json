@@ -172,6 +172,8 @@
       "hunter_shack", "hunter_shack_roof",
       "hunter_shack_1", "hunter_shack_roof_1",
       "lake_cabin_boathouse", "lake_cabin_boathouse_roof",
+      "lumbermill_0_0_ocu", "lumbermill_0_1_ocu",
+      "lumbermill_1_0_ocu", "lumbermill_1_1_ocu",
       "pottery_cottage", "pottery_cottage_2nd", "pottery_cottage_roof",
       "prefab", "prefab_roof",
       "riverside_dwelling", "riverside_dwelling_roof",
@@ -215,7 +217,8 @@
       "urban_8_1", "urban_8_3", "urban_8_5", "urban_8_7",
       "urban_8_2", "urban_8_4", "urban_8_6", "urban_8_8",
       "urban_9_1", "urban_9_3", "urban_9_5",
-      "urban_9_2", "urban_9_4", "urban_9_6"
+      "urban_9_2", "urban_9_4", "urban_9_6",
+      "yard"
     ],
     "rotates": false,
     "fg": [
