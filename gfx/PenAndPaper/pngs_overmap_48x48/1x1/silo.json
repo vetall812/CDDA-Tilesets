@@ -1,7 +1,8 @@
 [
   {
     "id": [
-      "2silos", "2silos_1", "2silos_2", "2silos_roof"
+      "2silos", "2silos_1", "2silos_2", "2silos_roof",
+      "farm_horse_silo", "farm_horse_silo_roof", "farm_horse_silo_1"
     ],
     "rotates": false,
     "fg": "silo",
