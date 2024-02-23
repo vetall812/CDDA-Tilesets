@@ -112,12 +112,33 @@
 
       "pasture",
 
+      "farm_4",
+      "farm_5",
+      "farm_6",
+      "farm_7",
+      "farm_8",
+      "farm_9",
+
       "farm_horse_track_1", "farm_horse_track_2",
 
       "farmland", "farmland_U",
       "farmland_turn", "farmland_turn_inside",
       "farmland_straight", "farmland_end",
-      "farmland_turnR", "farmland_turnL"
+      "farmland_turnR", "farmland_turnL",
+
+      "farm_isherwood_1",
+      "farm_isherwood_4", "farm_isherwood_5", "farm_isherwood_6",
+      "farm_isherwood_7", "farm_isherwood_8", "farm_isherwood_9",
+
+      "horse_farm_isherwood_1", "horse_farm_isherwood_2", "horse_farm_isherwood_3",
+      "horse_farm_isherwood_5", "horse_farm_isherwood_6", "horse_farm_isherwood_8",
+      "horse_farm_isherwood_9", "horse_farm_isherwood_11", "horse_farm_isherwood_12",
+      "horse_farm_isherwood_14", "horse_farm_isherwood_15", "horse_farm_isherwood_16",
+
+      "farm_lot_wire_turn_h", "farm_lot_wire_straight_v", "farm_lot_wire_straight_v_open", "farm_lot_wire_turn_v",
+      "dairy_farm_isherwood_W", "dairy_farm_isherwood_NW",
+      "dairy_farm_isherwood_E", "dairy_farm_isherwood_NE",
+      "horse_farm_isherwood_9_roof"
     ],
     "fg": [
       { "weight": 1, "sprite": "field_01" },
