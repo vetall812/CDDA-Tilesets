@@ -99,9 +99,21 @@
   },
   {
     "id": [
-      "paddock",
+      "paddock", "paddock_special_1",
       "paddock_R_gap", "paddock_R_butt",
       "paddock_L_gap", "paddock_L_butt",
+      "paddock_C",
+      "paddock_d_D_butt",
+      "paddock_d_U_butt",
+      "paddock_UL",
+
+      "splitrail_fence_DR", "splitrail_fence_gap", "splitrail_fence_UR",
+      "splitrail_fence_DL", "splitrail_fence_butt", "splitrail_fence_UL",
+
+      "pasture",
+
+      "farm_horse_track_1", "farm_horse_track_2",
+
       "farmland", "farmland_U",
       "farmland_turn", "farmland_turn_inside",
       "farmland_straight", "farmland_end",

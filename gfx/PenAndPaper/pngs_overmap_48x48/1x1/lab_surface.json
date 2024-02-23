@@ -2,6 +2,7 @@
   {
     "id": [
       "microlab_generic_surface", "microlab_generic_surface_roof",
+      "lab_stairs",
       "ice_lab_stairs"
     ],
     "rotates": false,
