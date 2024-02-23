@@ -1,7 +1,7 @@
 [
   {
     "id": [
-      "mine_entrance"
+      "mine_entrance", "mine_entrance_roof"
     ],
     "rotates": false,
     "fg": "mine_entrance",
@@ -35,7 +35,7 @@
   },
   {
     "id": [
-      "mine_entrance_loading_zone"
+      "mine_entrance_loading_zone", "mine_entrance_loading_zone_roof"
     ],
     "rotates": false,
     "fg": "mine_loading_zone",
