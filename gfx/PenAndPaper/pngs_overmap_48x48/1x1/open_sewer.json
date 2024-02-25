@@ -1,7 +1,8 @@
 [
   {
     "id": [
-      "cs_open_sewer", "cs_open_sewer_underground", "cs_open_sewer_undergound"
+      "cs_open_sewer", "cs_open_sewer_underground", "cs_open_sewer_undergound",
+      "urban_25_sewer_connector"
     ],
     "fg": "open_sewer",
     "bg": [
