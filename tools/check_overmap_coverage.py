@@ -223,7 +223,9 @@ def FindTilesetDir(cli_arg2):
             print(f"- CLI argument is not a valid path to the tileset.")
 
         if CheckFile(os.path.join(CWDir, cli_arg2), TSetFName):
-            print(f"- CLI argument is a relative path. {bcolors.OKGREEN}Tileset found!{bcolors.ENDC}")
+            print(
+                f"- CLI argument is a relative path. {bcolors.OKGREEN}Tileset found!{bcolors.ENDC}"
+            )
             Result = os.path.join(CWDir, cli_arg2)
         else:
             print(f"- CLI argument is not a relative path.")
@@ -233,7 +235,9 @@ def FindTilesetDir(cli_arg2):
             RepoDir = GetGitRoot(ScriptDir)
             if RepoDir:
                 print(f"  - Repository found!")
-                if CheckFile(os.path.normpath(os.path.join(RepoDir, "gfx", cli_arg2)), TSetFName):
+                if CheckFile(
+                    os.path.normpath(os.path.join(RepoDir, "gfx", cli_arg2)), TSetFName
+                ):
                     print(f"  - {bcolors.OKGREEN}Tileset found!{bcolors.ENDC}")
                     Result = os.path.normpath(os.path.join(RepoDir, "gfx", cli_arg2))
                 else:
@@ -242,8 +246,22 @@ def FindTilesetDir(cli_arg2):
                 print(f"  - Repository not found")
 
     else:
-        print("- No tileset argument provided. Should try to find repository and offer a choice.")
+        print(
+            "- No tileset argument provided. Should try to find repository and offer a choice."
+        )
         # TODO: Add choice
+        print(f"  - Check if current directory is in the repo.")
+        RepoDir = GetGitRoot (CWDir)
+        if RepoDir:
+            print(f"  - Repository found!")
+            # TODO: Call tileset selection
+        else:
+            print(f"  - Check if script directory is in the repo")
+            RepoDir = GetGitRoot (ScriptDir)
+            if RepoDir:
+                print(f"  - Repository found!")
+                # TODO: Call tileset selection
+
 
     if Result:
         print(f"+ Tileset is here : {bcolors.OKCYAN}" + Result + f"{bcolors.ENDC}")
