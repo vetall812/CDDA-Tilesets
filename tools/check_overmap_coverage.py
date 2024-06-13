@@ -203,6 +203,22 @@ def GetGitRoot(p):
         root = check_output(["git", "rev-parse", "--show-toplevel"], cwd=p)
         return root.strip().decode("utf-8")
 
+def SelectTileset(repo_root):
+    GFXdir = os.path.join(repo_root, "gfx")
+
+    all_subdirectories = [d for d in os.listdir(GFXdir) if os.path.isdir(os.path.join(GFXdir, d))]
+
+    print("    Available tilesets:")
+    for i, subdirectory in enumerate(all_subdirectories):
+        print(f"    {i + 1}. {subdirectory}")
+
+    try:
+        user_choice = int(input("Enter the number corresponding to the desired tileset: ")) - 1
+        selected_directory = all_subdirectories[user_choice]
+        return selected_directory
+    except (ValueError, IndexError):
+        print("Invalid input.")
+        return None
 
 def FindTilesetDir(cli_arg2):
     print("Determining tileset and its location")
@@ -249,19 +265,17 @@ def FindTilesetDir(cli_arg2):
         print(
             "- No tileset argument provided. Should try to find repository and offer a choice."
         )
-        # TODO: Add choice
         print(f"  - Check if current directory is in the repo.")
         RepoDir = GetGitRoot (CWDir)
         if RepoDir:
             print(f"  - Repository found!")
-            # TODO: Call tileset selection
+            Result = SelectTileset(RepoDir)
         else:
             print(f"  - Check if script directory is in the repo")
             RepoDir = GetGitRoot (ScriptDir)
             if RepoDir:
                 print(f"  - Repository found!")
-                # TODO: Call tileset selection
-
+                Result = SelectTileset(RepoDir)
 
     if Result:
         print(f"+ Tileset is here : {bcolors.OKCYAN}" + Result + f"{bcolors.ENDC}")
@@ -275,8 +289,7 @@ def main(args):
     sys.excepthook = ShowExceptionAndExit
 
     CDDAdir = FindCDDAdir(args.CDDAdir)
-    print("\n")
-    FindTilesetDir(args.tileset)
+    TsetDir = FindTilesetDir(args.tileset)
 
 
 if __name__ == "__main__":
