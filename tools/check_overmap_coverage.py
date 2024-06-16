@@ -7,6 +7,7 @@ import os
 from subprocess import STDOUT, call, check_output
 import argparse
 import sqlite3
+import json
 
 
 class bcolors:
@@ -203,22 +204,28 @@ def GetGitRoot(p):
         root = check_output(["git", "rev-parse", "--show-toplevel"], cwd=p)
         return root.strip().decode("utf-8")
 
+
 def SelectTileset(repo_root):
     GFXdir = os.path.join(repo_root, "gfx")
 
-    all_subdirectories = [d for d in os.listdir(GFXdir) if os.path.isdir(os.path.join(GFXdir, d))]
+    all_subdirectories = [
+        d for d in os.listdir(GFXdir) if os.path.isdir(os.path.join(GFXdir, d))
+    ]
 
     print("    Available tilesets:")
     for i, subdirectory in enumerate(all_subdirectories):
         print(f"    {i + 1}. {subdirectory}")
 
     try:
-        user_choice = int(input("Enter the number corresponding to the desired tileset: ")) - 1
+        user_choice = (
+            int(input("Enter the number corresponding to the desired tileset: ")) - 1
+        )
         selected_directory = all_subdirectories[user_choice]
         return selected_directory
     except (ValueError, IndexError):
         print("Invalid input.")
         return None
+
 
 def FindTilesetDir(cli_arg2):
     print("Determining tileset and its location")
@@ -234,7 +241,7 @@ def FindTilesetDir(cli_arg2):
         print(f"  - {bcolors.OKBLUE}" + cli_arg2 + f"{bcolors.ENDC}")
         if CheckFile(cli_arg2, TSetFName):
             print(f"- {bcolors.OKGREEN}Tileset found!{bcolors.ENDC}")
-            Result = cli_arg2
+            Result = os.path.normpath(cli_arg2)
         else:
             print(f"- CLI argument is not a valid path to the tileset.")
 
@@ -242,7 +249,7 @@ def FindTilesetDir(cli_arg2):
             print(
                 f"- CLI argument is a relative path. {bcolors.OKGREEN}Tileset found!{bcolors.ENDC}"
             )
-            Result = os.path.join(CWDir, cli_arg2)
+            Result = os.path.normpath(os.path.join(CWDir, cli_arg2))
         else:
             print(f"- CLI argument is not a relative path.")
 
@@ -266,16 +273,16 @@ def FindTilesetDir(cli_arg2):
             "- No tileset argument provided. Should try to find repository and offer a choice."
         )
         print(f"  - Check if current directory is in the repo.")
-        RepoDir = GetGitRoot (CWDir)
+        RepoDir = GetGitRoot(CWDir)
         if RepoDir:
             print(f"  - Repository found!")
-            Result = SelectTileset(RepoDir)
+            Result = os.path.normpath(os.path.join(RepoDir, SelectTileset(RepoDir)))
         else:
             print(f"  - Check if script directory is in the repo")
-            RepoDir = GetGitRoot (ScriptDir)
+            RepoDir = GetGitRoot(ScriptDir)
             if RepoDir:
                 print(f"  - Repository found!")
-                Result = SelectTileset(RepoDir)
+                Result = os.path.normpath(os.path.join(RepoDir, SelectTileset(RepoDir)))
 
     if Result:
         print(f"+ Tileset is here : {bcolors.OKCYAN}" + Result + f"{bcolors.ENDC}")
@@ -285,11 +292,69 @@ def FindTilesetDir(cli_arg2):
         exit(2)
 
 
+def ReadJSONfromFiles(json_dir):
+    all_objects = []
+    for filename in os.listdir(json_dir):
+        if filename.endswith(".json"):
+            with open(os.path.join(json_dir, filename), "r", encoding="utf-8") as file:
+                data = json.load(file)
+                all_objects.extend(data)
+    return all_objects
+
+
+def get_unique_names(objects_list):
+    unique_names = set()
+    for obj in objects_list:
+        name = obj.get("name")
+        if isinstance(name, dict) and "str" in name:
+            unique_names.add(name["str"])
+        elif isinstance(name, str):
+            unique_names.add(name)
+    return list(unique_names)
+
+
+def print_names_and_ids(objects_list):
+    name_to_ids = {}
+    AllNames = get_unique_names(objects_list)
+    for name in AllNames:
+        for obj in objects_list:
+            if "id" in obj and "name" in obj and obj["name"] == name:
+                if name not in name_to_ids:
+                    name_to_ids[name] = set()
+                ids = obj["id"] if isinstance(obj["id"], list) else [obj["id"]]
+                name_to_ids[name].update(ids)
+
+    # Now print the names and their corresponding ids
+    for name, ids in name_to_ids.items():
+        print(f"Name: {name}")
+        print(f" IDs: "+str(len(ids)))
+        print()  # Print a newline for better readability
+
+
 def main(args):
     sys.excepthook = ShowExceptionAndExit
 
     CDDAdir = FindCDDAdir(args.CDDAdir)
     TsetDir = FindTilesetDir(args.tileset)
+    JSONdir = os.path.join(CDDAdir, "data\json\overmap\overmap_terrain")
+
+    AllOverMapObjects = ReadJSONfromFiles(JSONdir)
+    print(f"Total overmap objects in game: " + str(len(AllOverMapObjects)))
+    AbstractObjects = [
+        obj
+        for obj in AllOverMapObjects
+        if obj.get("type") == "overmap_terrain" and "abstract" in obj
+    ]
+
+    print_names_and_ids(AllOverMapObjects)
+
+    # om terrain names/ids can be found in:
+    # cdda\data\json\overmap\overmap_terrain\
+    # all files
+
+    # if 'type' = 'overmap_terrain'
+    # then 'name' is a group, name can be absent if 'copy-from' 'abstract'
+    # and 'id' is a OMT
 
 
 if __name__ == "__main__":
