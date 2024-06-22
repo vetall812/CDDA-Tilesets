@@ -302,30 +302,63 @@ def ReadJSONfromFiles(json_dir):
     return all_objects
 
 
-def get_unique_names(objects_list):
-    unique_names = set()
+def GetUniqueNames(objects_list):
+    UniqueNames = set()
     for obj in objects_list:
         name = obj.get("name")
         if isinstance(name, dict) and "str" in name:
-            unique_names.add(name["str"])
+            UniqueNames.add(name["str"])
         elif isinstance(name, str):
-            unique_names.add(name)
-    return list(unique_names)
+            UniqueNames.add(name)
+    return list(UniqueNames)
 
 
-def print_names_and_ids(objects_list):
-    name_to_ids = {}
-    AllNames = get_unique_names(objects_list)
-    for name in AllNames:
-        for obj in objects_list:
-            if "id" in obj and "name" in obj and obj["name"] == name:
-                if name not in name_to_ids:
-                    name_to_ids[name] = set()
-                ids = obj["id"] if isinstance(obj["id"], list) else [obj["id"]]
-                name_to_ids[name].update(ids)
+def GetObjByID(id, objects_list):
+    for Obj in objects_list:
+        if isinstance(Obj.get("id"), list):
+            if id in Obj["id"]:
+                return Obj
+        elif Obj.get("id") == id:
+            return Obj
+        elif isinstance(Obj.get("abstract"), list):
+            if id in Obj["abstract"]:
+                return Obj
+        elif Obj.get("abstract") == id:
+            return Obj
+    return None
+
+
+def GetObjName(id, objects_list):
+    Obj = GetObjByID(id, objects_list)
+    if "name" in Obj:
+        FullName = Obj.get("name")
+        if isinstance(FullName, dict) and "str" in FullName:
+            RealName = FullName["str"]
+        elif isinstance(FullName, str):
+            RealName = FullName
+        else: exit(3)
+    elif "copy-from" in Obj:
+        ParentID = Obj["copy-from"]
+        RealName = GetObjName(ParentID, objects_list)
+    else: exit(4)
+    return RealName
+
+
+def GetAllNamesAndIDs(objects_list):
+    NamesAndIds = {}
+    AllNames = GetUniqueNames(objects_list)
+    for Name in AllNames:
+        NamesAndIds[Name] = set()
+
+    for Obj in objects_list:
+        if Obj.get("id"):
+            ObjIDs = Obj["id"] if isinstance(Obj["id"], list) else [Obj["id"]]
+            for ID in ObjIDs:
+                Name = GetObjName(ID, objects_list)
+                NamesAndIds[Name].update(ID)
 
     # Now print the names and their corresponding ids
-    for name, ids in name_to_ids.items():
+    for name, ids in NamesAndIds.items():
         print(f"Name: {name}")
         print(f" IDs: "+str(len(ids)))
         print()  # Print a newline for better readability
@@ -346,7 +379,7 @@ def main(args):
         if obj.get("type") == "overmap_terrain" and "abstract" in obj
     ]
 
-    print_names_and_ids(AllOverMapObjects)
+    GetAllNamesAndIDs(AllOverMapObjects)
 
     # om terrain names/ids can be found in:
     # cdda\data\json\overmap\overmap_terrain\
