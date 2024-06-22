@@ -35,13 +35,13 @@ def CheckFile(str_path, str_file):
 
     Args:
         str_path (str): Absolute or relative path
-        str_file (str): Filename
+        str_file (str): FileName
 
     Returns:
         bool: True if file exist
     """
-    my_file = os.path.join(str_path, str_file)
-    return os.path.isfile(my_file)
+    TestFile = os.path.join(str_path, str_file)
+    return os.path.isfile(TestFile)
 
 
 def CheckCDDAdir(str_path):
@@ -208,20 +208,20 @@ def GetGitRoot(p):
 def SelectTileset(repo_root):
     GFXdir = os.path.join(repo_root, "gfx")
 
-    all_subdirectories = [
+    AllSubDirs = [
         d for d in os.listdir(GFXdir) if os.path.isdir(os.path.join(GFXdir, d))
     ]
 
     print("    Available tilesets:")
-    for i, subdirectory in enumerate(all_subdirectories):
-        print(f"    {i + 1}. {subdirectory}")
+    for i, SubDir in enumerate(AllSubDirs):
+        print(f"    {i + 1}. {SubDir}")
 
     try:
-        user_choice = (
+        UserChoice = (
             int(input("Enter the number corresponding to the desired tileset: ")) - 1
         )
-        selected_directory = all_subdirectories[user_choice]
-        return selected_directory
+        SelectedDir = AllSubDirs[UserChoice]
+        return SelectedDir
     except (ValueError, IndexError):
         print("Invalid input.")
         return None
@@ -293,23 +293,23 @@ def FindTilesetDir(cli_arg2):
 
 
 def ReadJSONfromFiles(json_dir):
-    all_objects = []
-    for filename in os.listdir(json_dir):
-        if filename.endswith(".json"):
-            with open(os.path.join(json_dir, filename), "r", encoding="utf-8") as file:
-                data = json.load(file)
-                all_objects.extend(data)
-    return all_objects
+    ObjectsAll = []
+    for FileName in os.listdir(json_dir):
+        if FileName.endswith(".json"):
+            with open(os.path.join(json_dir, FileName), "r", encoding="utf-8") as JSONFile:
+                JSONData = json.load(JSONFile)
+                ObjectsAll.extend(JSONData)
+    return ObjectsAll
 
 
 def GetUniqueNames(objects_list):
     UniqueNames = set()
-    for obj in objects_list:
-        name = obj.get("name")
-        if isinstance(name, dict) and "str" in name:
-            UniqueNames.add(name["str"])
-        elif isinstance(name, str):
-            UniqueNames.add(name)
+    for Obj in objects_list:
+        Name = Obj.get("name")
+        if isinstance(Name, dict) and "str" in Name:
+            UniqueNames.add(Name["str"])
+        elif isinstance(Name, str):
+            UniqueNames.add(Name)
     return list(UniqueNames)
 
 
@@ -336,11 +336,13 @@ def GetObjName(id, objects_list):
             RealName = FullName["str"]
         elif isinstance(FullName, str):
             RealName = FullName
-        else: exit(3)
+        else:
+            exit(3)
     elif "copy-from" in Obj:
         ParentID = Obj["copy-from"]
         RealName = GetObjName(ParentID, objects_list)
-    else: exit(4)
+    else:
+        exit(4)
     return RealName
 
 
@@ -355,13 +357,15 @@ def GetAllNamesAndIDs(objects_list):
             ObjIDs = Obj["id"] if isinstance(Obj["id"], list) else [Obj["id"]]
             for ID in ObjIDs:
                 Name = GetObjName(ID, objects_list)
-                NamesAndIds[Name].update(ID)
+                NamesAndIds[Name].add(ID)
 
-    # Now print the names and their corresponding ids
-    for name, ids in NamesAndIds.items():
-        print(f"Name: {name}")
-        print(f" IDs: "+str(len(ids)))
-        print()  # Print a newline for better readability
+    SortedResults = sorted(
+        NamesAndIds.items(),
+        # key=lambda x: ( len(x[1]), sorted(x[1]) )
+        key=lambda x: x[0].lower(),
+    )
+
+    return dict(SortedResults)
 
 
 def main(args):
@@ -373,13 +377,14 @@ def main(args):
 
     AllOverMapObjects = ReadJSONfromFiles(JSONdir)
     print(f"Total overmap objects in game: " + str(len(AllOverMapObjects)))
-    AbstractObjects = [
-        obj
-        for obj in AllOverMapObjects
-        if obj.get("type") == "overmap_terrain" and "abstract" in obj
-    ]
+    print()
 
-    GetAllNamesAndIDs(AllOverMapObjects)
+    Result = GetAllNamesAndIDs(AllOverMapObjects)
+    for Name, IDs in Result.items():
+        if len(IDs) > 0:
+            print(f"{Name} ({len(IDs)} IDs):")
+        for ID in IDs:
+            print(f"  - {ID}")
 
     # om terrain names/ids can be found in:
     # cdda\data\json\overmap\overmap_terrain\
