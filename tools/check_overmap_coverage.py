@@ -221,7 +221,7 @@ def SelectTileset(repo_root):
             int(input("Enter the number corresponding to the desired tileset: ")) - 1
         )
         SelectedDir = AllSubDirs[UserChoice]
-        return SelectedDir
+        return (os.path.join(GFXdir, SelectedDir))
     except (ValueError, IndexError):
         print("Invalid input.")
         return None
@@ -276,13 +276,13 @@ def FindTilesetDir(cli_arg2):
         RepoDir = GetGitRoot(CWDir)
         if RepoDir:
             print(f"  - Repository found!")
-            Result = os.path.normpath(os.path.join(RepoDir, SelectTileset(RepoDir)))
+            Result = os.path.normpath(SelectTileset(RepoDir))
         else:
             print(f"  - Check if script directory is in the repo")
             RepoDir = GetGitRoot(ScriptDir)
             if RepoDir:
                 print(f"  - Repository found!")
-                Result = os.path.normpath(os.path.join(RepoDir, SelectTileset(RepoDir)))
+                Result = os.path.normpath(SelectTileset(RepoDir))
 
     if Result:
         print(f"+ Tileset is here : {bcolors.OKCYAN}" + Result + f"{bcolors.ENDC}")
@@ -368,23 +368,63 @@ def GetAllNamesAndIDs(objects_list):
     return dict(SortedResults)
 
 
+def GetAllJSONfiles(folder_path):
+    JSONfiles = []
+    for Root, Dirs, Files in os.walk(folder_path):
+        for File in Files:
+            if File.lower().endswith('.json') and File != "tile_info.json":
+                JSONfiles.append(os.path.join(Root, File))
+    return JSONfiles
+
+
+def GetAllIDsFromFile(filename):
+    with open(filename, "r") as JSONfile:
+        JSONdata = json.load(JSONfile)
+    IDs = []
+    if isinstance(JSONdata, dict):
+        return [JSONdata.get("id")]
+    elif isinstance(JSONdata, list):
+        IDs = []
+        for Obj in JSONdata:
+            if isinstance(Obj["id"], list):
+                IDs.extend(Obj["id"])
+            else:
+                IDs.append(Obj["id"])
+        return IDs
+    else:
+        raise ValueError("Input JSON data should be a single object or a list of objects.")
+
+
+def GetAllSpritedIDs(folder_path):
+    AllIDs = []
+    AllJSONFiles = GetAllJSONfiles(folder_path)
+    for JSONfile in AllJSONFiles:
+        AllIDs += GetAllIDsFromFile(JSONfile)
+    return AllIDs
+
 def main(args):
     sys.excepthook = ShowExceptionAndExit
 
     CDDAdir = FindCDDAdir(args.CDDAdir)
-    TsetDir = FindTilesetDir(args.tileset)
-    JSONdir = os.path.join(CDDAdir, "data\json\overmap\overmap_terrain")
+    OverMapJSONdir = os.path.join(CDDAdir, "data\json\overmap\overmap_terrain")
 
-    AllOverMapObjects = ReadJSONfromFiles(JSONdir)
+    TsetDir = FindTilesetDir(args.tileset)
+    AllOverMapObjects = ReadJSONfromFiles(OverMapJSONdir)
+
+    SpritedIDs = GetAllSpritedIDs(TsetDir)
+
+
     print(f"Total overmap objects in game: " + str(len(AllOverMapObjects)))
     print()
 
     Result = GetAllNamesAndIDs(AllOverMapObjects)
+
     for Name, IDs in Result.items():
         if len(IDs) > 0:
             print(f"{Name} ({len(IDs)} IDs):")
         for ID in IDs:
-            print(f"  - {ID}")
+            Mark = "*" if ID in SpritedIDs else " "
+            print(f"{Mark} - {ID}")
 
     # om terrain names/ids can be found in:
     # cdda\data\json\overmap\overmap_terrain\
