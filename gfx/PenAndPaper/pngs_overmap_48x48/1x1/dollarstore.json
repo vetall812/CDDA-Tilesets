@@ -1,7 +1,8 @@
 [
   {
     "id": [
-      "dollarstore", "dollarstore_roof"
+      "dollarstore", "dollarstore_roof",
+      "dollarstore_1", "dollarstore_roof_1"
     ],
     "rotates": false,
     "fg": "dollar_store",

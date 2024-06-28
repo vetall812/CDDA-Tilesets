@@ -6,8 +6,8 @@
       "10 11        ", "10 11         ", "10_11_        ", "10 11         "
     ],
     "id":[
-      "s_lightindustry_10",
-      "s_lightindustry_scen_10"
+      "s_lightindustry_10", "s_lightindustry_10_roof",
+      "s_lightindustry_scen_10", "s_lightindustry_scen_10_roof"
     ],
     "rotates": true,
     "fg": [
@@ -43,8 +43,8 @@
   },
   {
     "id":[
-      "s_lightindustry_11",
-      "s_lightindustry_scen_11"
+      "s_lightindustry_11", "s_lightindustry_11_roof",
+      "s_lightindustry_scen_11", "s_lightindustry_scen_11_roof"
     ],
     "rotates": true,
     "fg": [
@@ -154,8 +154,8 @@
   },
   {
     "id":[
-      "s_lightindustry_00",
-      "s_lightindustry_scen_00"
+      "s_lightindustry_00", "s_lightindustry_00_roof",
+      "s_lightindustry_scen_00", "s_lightindustry_scen_00_roof"
     ],
     "rotates": true,
     "fg": [
@@ -191,8 +191,8 @@
   },
   {
     "id":[
-      "s_lightindustry_01",
-      "s_lightindustry_scen_01"
+      "s_lightindustry_01", "s_lightindustry_01_roof",
+      "s_lightindustry_scen_01", "s_lightindustry_scen_01_roof"
     ],
     "rotates": true,
     "fg": [

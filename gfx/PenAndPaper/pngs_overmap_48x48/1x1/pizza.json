@@ -2,7 +2,7 @@
   {
     "id": [
       "s_pizza_parlor", "s_pizza_parlor_roof",
-      "s_pizza_parlor_1", "s_pizza_parlor_1_roof"
+      "s_pizza_parlor_1", "s_pizza_parlor_1_roof", "s_pizza_parlor_roof_1"
     ],
     "fg": "pizza",
     "bg": [

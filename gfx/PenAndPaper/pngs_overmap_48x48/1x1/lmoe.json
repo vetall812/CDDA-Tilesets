@@ -3,7 +3,8 @@
     "id": [
       "lmoe", "lmoe_roof", "lmoe_under_empty",
       "lmoe_prepperquest", "lmoe_under_empty_prepperquest",
-      "lmoe_zombie", "lmoe_zombie_under_empty"
+      "lmoe_zombie", "lmoe_zombie_under_empty",
+      "lmoe_under"
     ],
     "fg": "lmoe",
     "bg": [

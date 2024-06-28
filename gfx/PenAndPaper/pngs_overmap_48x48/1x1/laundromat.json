@@ -1,7 +1,8 @@
 [
   {
     "id": [
-      "s_laundromat", "s_laundromat_roof"
+      "s_laundromat", "s_laundromat_roof",
+      "s_laundromat_1", "s_laundromat_roof_1"
     ],
     "fg": "laundromat",
     "bg": [

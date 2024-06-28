@@ -2,7 +2,9 @@
   {
     "id": [
       "office_doctor", "office_doctor_roof",
-      "office_doctor_1", "office_doctor_roof_1"
+      "office_doctor_1", "office_doctor_roof_1",
+      "office_doctor_2", "office_doctor_roof_2",
+      "office_doctor_roof_2", "office_doctor_upper_roof_2"
     ],
     "fg": "doctors_office",
     "bg": [

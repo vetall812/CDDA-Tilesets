@@ -36,7 +36,7 @@
   },
   {
     "id": [
-      "isolated_house_farm_gunsmith"
+      "isolated_house_farm_gunsmith", "isolated_house_farm_roof_gunsmith"
     ],
     "fg": [
       "bullet_bank_var_01", "bullet_bank_var_00", "bullet_bank_var_02", "bullet_bank_var_03"
@@ -71,7 +71,7 @@
   },
   {
     "id": [
-      "isolated_house_farm_blacksmith"
+      "isolated_house_farm_blacksmith", "isolated_house_farm_roof_blacksmith"
     ],
     "fg": [
       "bullet_bank_var_02", "bullet_bank_var_03", "bullet_bank_var_01", "bullet_bank_var_00"

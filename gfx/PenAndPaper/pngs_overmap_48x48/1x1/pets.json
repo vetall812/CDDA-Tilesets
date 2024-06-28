@@ -2,7 +2,8 @@
   {
     "id": [
       "s_petstore", "s_petstore_roof",
-      "s_petstore_1", "s_petstore_roof_1"
+      "s_petstore_1", "s_petstore_roof_1",
+      "s_petstore_2", "s_petstore_roof_2"
     ],
     "rotates": false,
     "fg": "pet_shop",

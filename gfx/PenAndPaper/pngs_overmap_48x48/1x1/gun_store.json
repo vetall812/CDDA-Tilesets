@@ -5,7 +5,13 @@
       "s_gun_1", "s_gun_roof_1",
       "s_gun_2", "s_gun_roof_2",
       "s_gun_3", "s_gun_roof_3",
-      "s_gun_4", "s_gun_roof_4", "s_gun_2ndfloor_4"
+      "s_gun_4", "s_gun_roof_4", "s_gun_2ndfloor_4",
+      "s_gunstore_roof",
+      "s_gun_3_looted",
+      "s_gun_4_looted",
+      "s_gun_looted",
+      "s_gunstore",
+      "s_gunstore_looted"
     ],
     "rotates": false,
     "fg": "gun_store",

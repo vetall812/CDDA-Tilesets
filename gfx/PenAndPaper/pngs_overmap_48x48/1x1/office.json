@@ -1,7 +1,8 @@
 [
   {
     "id": [
-      "office_cubical", "office_cubical_roof"
+      "office_cubical", "office_cubical_roof",
+      "office_cubical_1", "office_cubical_roof_1"
     ],
     "fg": "office",
     "bg": [

@@ -2,7 +2,8 @@
   {
     "id": [
       "s_butcher", "s_butcher_roof", "s_butcher_upper_roof",
-      "s_butcher_1", "s_butcher_roof_1", "s_butcher_upper_roof_1"
+      "s_butcher_1", "s_butcher_roof_1", "s_butcher_upper_roof_1",
+      "s_butcher_2", "s_butcher_roof_2"
     ],
     "rotates": false,
     "fg": "butcher",

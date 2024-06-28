@@ -1,6 +1,12 @@
 [
   {
-    "id": "empty_rock",
+    "id": [
+      "empty_rock",
+      "deep_rock",
+      "rock",
+      "special_deep_rock",
+      "special_rock"
+    ],
     "fg": [
       { "weight": 150, "sprite": "empty" },
       { "weight": 1, "sprite": "rock_var_01" },

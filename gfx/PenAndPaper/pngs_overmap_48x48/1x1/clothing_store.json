@@ -7,7 +7,8 @@
       "s_clothes_3", "s_clothes_roof_3",
       "s_clothes_4", "s_clothes_roof_4",
       "s_clothes_5", "s_clothes_roof_5",
-      "s_clothes_6", "s_clothes_roof_6"
+      "s_clothes_6", "s_clothes_roof_6",
+      "s_clothes_upper_roof_4"
     ],
     "fg": "clothing_store",
     "bg": [

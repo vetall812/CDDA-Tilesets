@@ -3,7 +3,8 @@
     "id": [
       "craft_shop", "craft_shop_roof", "craft_shop_upper_roof",
       "craft_shop_1", "craft_shop_roof_1",
-      "craft_shop_2", "craft_shop_roof_2", "craft_shop_2ndfloor_2"
+      "craft_shop_2", "craft_shop_roof_2", "craft_shop_2ndfloor_2",
+      "craft_shop_3", "craft_shop_roof_3", "craft_shop_2ndfloor_3"
     ],
     "fg": "craft",
     "bg": [

@@ -2,7 +2,8 @@
   {
     "id": [
       "pawn", "pawn_roof",
-      "pawn_1", "pawn_roof_1"
+      "pawn_1", "pawn_roof_1",
+      "pawn_pf", "pawn_pf_under", "pawn_pf_roof"
     ],
     "rotates": false,
     "fg": "pawn_shop",

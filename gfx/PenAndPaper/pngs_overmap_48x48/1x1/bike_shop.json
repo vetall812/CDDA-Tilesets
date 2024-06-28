@@ -1,7 +1,8 @@
 [
   {
     "id": [
-      "s_bike_shop", "s_bike_shop_roof"
+      "s_bike_shop", "s_bike_shop_roof",
+      "s_bike_shop_1", "s_bike_shop_roof_1"
     ],
     "fg": "bike",
     "bg": [

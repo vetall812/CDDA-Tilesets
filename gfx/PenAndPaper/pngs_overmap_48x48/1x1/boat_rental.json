@@ -2,7 +2,8 @@
   {
     "id": [
       "boat_rental", "boat_rental_roof",
-      "boat_rental_1", "boat_rental_1_roof"
+      "boat_rental_1", "boat_rental_1_roof",
+      "boat_rental_2", "boat_rental_2_roof"
     ],
     "fg": "boat_rental",
     "bg": [

@@ -110,8 +110,21 @@
       "paddock_end_UR", "paddock_end_UL",
       "paddock_end_DR", "paddock_end_DL",
 
+      "paddock_d_D_gap",
+      "paddock_d_U_gap",
+      "paddock_special_2",
+      "paddock_special_3",
+      "paddock_special_4",
+      "paddock_trailhead_1",
+      "paddock_trailhead_3",
+      "paddock_trailhead_4",
+      "paddock_trailhead_6",
+      "paddock_trailhead_7",
+      "paddock_trailhead_9",
+
       "splitrail_fence_DR", "splitrail_fence_gap", "splitrail_fence_UR",
       "splitrail_fence_DL", "splitrail_fence_butt", "splitrail_fence_UL",
+      "splitrail_fence_inner",
 
       "pasture",
 

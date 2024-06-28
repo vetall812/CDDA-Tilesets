@@ -1,7 +1,11 @@
 [
   {
     "id": [
-      "island_sand"
+      "island_sand",
+      "island_field",
+      "island_forest",
+      "island_forest_thick",
+      "island_forest_water"
     ],
     "fg": "island_sand",
     "bg": [
