@@ -11,6 +11,15 @@
     "overmap.png": {}
   },
   {
+    "pins.png": {
+      "sprite_width": 48,
+      "sprite_height": 48,
+      "sprite_offset_x": 0,
+      "sprite_offset_y": 0,
+      "sprites_across": 4
+    }
+  },
+  {
     "icons.png": {
       "sprite_width": 96,
       "sprite_height": 96,
@@ -36,7 +45,7 @@
     }
   },
   {
-    "ruler.png": {
+    "cursor.png": {
       "sprite_width": 288,
       "sprite_height": 144,
       "sprite_offset_x": -240,
