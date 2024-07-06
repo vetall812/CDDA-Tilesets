@@ -1,7 +1,8 @@
 [
   {
     "id": [
-      "unknown_terrain"
+      "unknown_terrain",
+      "unexplored"
     ],
     "fg": [
       { "weight": 1, "sprite": "unknown_00" },

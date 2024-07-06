@@ -1,13 +1,10 @@
 [
   {
     "id": [
-      "dump", "landfill",
-      "toxic_dump", "toxic_dump_roof",
-      "cs_city_dump_small",
-      "trailer_public_00", "trailer_public_00_roof"
+      "basketball_court",
+      "baskeball_court"
     ],
-    "rotates": false,
-    "fg": "dump_small",
+    "fg": "basketball_court",
     "bg": [
       { "weight": 1, "sprite": "bg_00" },
       { "weight": 1, "sprite": "bg_01" },

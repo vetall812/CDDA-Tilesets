@@ -467,7 +467,7 @@
     ]
   },
   {
-    "id": ["thunder", "lightning"],
+    "id": ["thunder", "lightning", "snowstorm"],
     "fg": [
       { "weight": 1, "sprite": "lightning_var_00" },
       { "weight": 1, "sprite": "lightning_var_01" },
@@ -515,7 +515,7 @@
     ]
   },
   {
-    "id": "snowing",
+    "id": ["snowing", "flurries"],
     "fg": [
       { "weight": 1, "sprite": "snowing_var_00" },
       { "weight": 1, "sprite": "snowing_var_01" },

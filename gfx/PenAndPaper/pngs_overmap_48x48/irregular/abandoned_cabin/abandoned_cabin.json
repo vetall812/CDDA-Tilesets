@@ -5,8 +5,8 @@
       "dirtroad1_aban1",
       "dirtroad2_aban1",
       "dirtplaza_aban1",
-      "cabin_aban1",
-      "car_corner_aban1",
+      "cabin_aban1", "cabin_aban1_roof",
+      "car_corner_aban1", "car_corner_aban1_roof",
       "barn_aban1"
     ],
     "fg": [

@@ -1,7 +1,8 @@
 [
   {
     "id": [
-      "mi-go_portal"
+      "mi-go_portal",
+      "mi-go_portal_roof"
     ],
     "rotates": false,
     "fg": "mi-go_portal",

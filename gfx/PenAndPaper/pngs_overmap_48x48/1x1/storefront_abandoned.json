@@ -1,7 +1,9 @@
 [
   {
     "id": [
-      "abstorefront", "abstorefront_roof"
+      "abstorefront", "abstorefront_roof",
+      "abstorefront_1", "abstorefront_roof_1",
+      "abstorefront_2", "abstorefront_roof_2"
     ],
     "rotates": false,
     "fg": "storefront_abandoned",

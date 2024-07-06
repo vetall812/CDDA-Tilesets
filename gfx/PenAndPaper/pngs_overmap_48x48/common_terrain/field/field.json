@@ -3,7 +3,8 @@
     "id": [
       "field",
       "emptyresidentiallot", "emptycommerciallot",
-      "pottery_cottage_field", "pottery_cottage_field_2nd", "pottery_cottage_field_roof"
+      "pottery_cottage_field", "pottery_cottage_field_2nd", "pottery_cottage_field_roof",
+      "rural_church_parking"
     ],
     "fg": [
       { "weight": 150, "sprite": "empty" },
