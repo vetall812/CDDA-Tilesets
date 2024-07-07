@@ -1,6 +1,9 @@
 [
   {
-    "id": "open_air",
+    "id": [
+      "open_air",
+      "sewage_treatment_1_0_upper_roof"
+    ],
     "fg": [
       { "weight": 1000, "sprite": "empty" },
       { "weight": 1, "sprite": "air_var_00" },
