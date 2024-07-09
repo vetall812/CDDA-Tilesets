@@ -3,6 +3,7 @@
     "id": [
       "lake_surface", "lake_water_cube", "lake_bed",
       "river_center",
+      "ocean_surface", "ocean_water_cube", "ocean_bed",
       "lake_cabin_water"
     ],
     "fg": [

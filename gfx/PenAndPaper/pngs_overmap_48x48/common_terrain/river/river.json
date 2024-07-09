@@ -334,7 +334,7 @@
     ]
   },
   {
-    "id": "lake_shore",
+    "id": [ "lake_shore", "ocean_shore" ],
     "fg": "fix_me_bank",
     "bg": "bg_01"
   }
