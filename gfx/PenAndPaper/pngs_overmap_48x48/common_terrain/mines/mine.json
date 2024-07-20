@@ -3,7 +3,8 @@
     "id": [
       "mine_finale",
       "acid_ants_queen",
-      "ants_queen"
+      "ants_queen",
+      "river_cave_kraken"
     ],
     "fg": [
       { "weight": 1, "sprite": "finale_v1" },
@@ -123,7 +124,8 @@
   {
     "id": [
       "ants_larvae",
-      "acid_ants_larvae"
+      "acid_ants_larvae",
+      "river_cave_nest"
     ],
     "fg": [
       { "weight": 1, "sprite": "ant_v1" },
@@ -164,7 +166,8 @@
     "id": [
       "mine_tunnel",
       "acid_ants",
-      "ants"
+      "ants",
+      "river_cave"
     ],
     "fg": "forest_trail_v5_center",
     "bg": [
