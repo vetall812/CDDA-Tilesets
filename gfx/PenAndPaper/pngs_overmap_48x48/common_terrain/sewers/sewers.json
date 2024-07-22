@@ -72,7 +72,10 @@
     {
       "id": "corner",
       "fg": [
-        { "weight": 1, "sprite": [ "sewers_v1_corner_nw", "sewers_v1_corner_sw", "sewers_v1_corner_se", "sewers_v1_corner_ne" ] },
+        {
+          "weight": 1,
+          "sprite": [ "sewers_v1_corner_nw", "sewers_v1_corner_sw", "sewers_v1_corner_se", "sewers_v1_corner_ne" ]
+        },
         {
           "weight": 1,
           "sprite": [ "sewers_v2_corner_nw", "sewers_v2_corner_sw", "sewers_v2_corner_se", "sewers_v2_corner_ne" ]

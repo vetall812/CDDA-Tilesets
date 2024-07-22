@@ -1,7 +1,8 @@
 {
   "id": [
     "rural_road", "dirt_road",
-    "rural_road_forest", "dirt_road_forest"
+    "rural_road_forest", "dirt_road_forest",
+    "dirt_road_farm_parking"
   ],
   "fg": "dirt_v5_center",
   "bg": [

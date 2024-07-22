@@ -1,7 +1,8 @@
 [
   {
     "id": [
-      "junkyard_roof_1a", "junkyard_roof_1b"
+      "junkyard_roof_1a", "junkyard_roof_1b",
+      "junkyard_roof_2a", "junkyard_roof_2b"
     ],
     "fg": "empty",
     "bg": [
