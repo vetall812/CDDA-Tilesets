@@ -1,0 +1,63 @@
+{
+  "id": "unknown_terrain",
+  "fg": "unknown_unconnected",
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": [
+        { "weight": 1, "sprite": "unknown_00" },
+        { "weight": 1, "sprite": "unknown_01" },
+        { "weight": 1, "sprite": "unknown_02" },
+        { "weight": 1, "sprite": "unknown_03" },
+        { "weight": 1, "sprite": "unknown_04" },
+        { "weight": 1, "sprite": "unknown_05" },
+        { "weight": 1, "sprite": "unknown_06" },
+        { "weight": 1, "sprite": "unknown_07" },
+        { "weight": 1, "sprite": "unknown_08" },
+        { "weight": 1, "sprite": "unknown_09" },
+        { "weight": 1, "sprite": "unknown_10" },
+        { "weight": 1, "sprite": "unknown_11" },
+        { "weight": 1, "sprite": "unknown_12" },
+        { "weight": 1, "sprite": "unknown_13" },
+        { "weight": 1, "sprite": "unknown_14" },
+        { "weight": 1, "sprite": "unknown_15" }
+      ]
+    },
+    {
+      "id": "corner",
+      "fg": [
+        "unknown_corner_nw",
+        "unknown_corner_sw",
+        "unknown_corner_se",
+        "unknown_corner_ne"
+      ]
+    },
+    {
+      "id": "t_connection",
+      "fg": [
+        "unknown_t_connection_n",
+        "unknown_t_connection_w",
+        "unknown_t_connection_s",
+        "unknown_t_connection_e"
+      ]
+    },
+    {
+      "id": "edge",
+      "fg": ["unknown_edge_ns", "unknown_edge_ew"]
+    },
+    {
+      "id": "end_piece",
+      "fg": [
+        "unknown_end_piece_n",
+        "unknown_end_piece_w",
+        "unknown_end_piece_s",
+        "unknown_end_piece_e"
+      ]
+    },
+    {
+      "id": "unconnected",
+      "fg": ["unknown_unconnected", "unknown_unconnected"]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 {
   "id": "t_wall_half_transparent",
+  "height_3d": 20,
   "fg": "t_wall_half_transparent_unconnected",
   "multitile": true,
   "additional_tiles": [

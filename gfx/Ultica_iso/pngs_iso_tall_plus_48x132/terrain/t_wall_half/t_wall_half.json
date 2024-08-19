@@ -1,5 +1,6 @@
 {
   "id": "t_wall_half",
+  "height_3d": 20,
   "fg": "t_wall_half_unconnected",
   "multitile": true,
   "additional_tiles": [
@@ -27,10 +28,7 @@
     },
     {
       "id": "edge",
-      "fg": [
-        "t_wall_half_edge_ns",
-        "t_wall_half_edge_ew"
-      ]
+      "fg": ["t_wall_half_edge_ns", "t_wall_half_edge_ew"]
     },
     {
       "id": "end_piece",
@@ -43,10 +41,7 @@
     },
     {
       "id": "unconnected",
-      "fg": [
-        "t_wall_half_unconnected",
-        "t_wall_half_unconnected"
-      ]
+      "fg": ["t_wall_half_unconnected", "t_wall_half_unconnected"]
     }
   ]
 }

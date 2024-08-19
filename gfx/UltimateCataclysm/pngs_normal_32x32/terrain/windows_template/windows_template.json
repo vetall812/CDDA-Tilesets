@@ -1,0 +1,37 @@
+{
+  "id": "t_window",
+  "fg": "windows_template_unconnected",
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "edge",
+      "fg": [
+        "windows_template_end_piece_e",
+        "windows_template_end_piece_n",
+        "windows_template_end_piece_w",
+        "windows_template_end_piece_s",
+        "windows_template_edge_ew",
+        "windows_template_edge_ns",
+        "windows_template_t_connection_n",
+        "windows_template_t_connection_w"
+      ]
+    },
+    {
+      "id": "end_piece",
+      "fg": [
+        "windows_template_end_piece_e",
+        "windows_template_end_piece_n",
+        "windows_template_end_piece_w",
+        "windows_template_end_piece_s",
+        "windows_template_edge_ew",
+        "windows_template_edge_ns",
+        "windows_template_t_connection_n",
+        "windows_template_t_connection_w"
+      ]
+    },
+    {
+      "id": "unconnected",
+      "fg": ["windows_template_unconnected", "windows_template_unconnected"]
+    }
+  ]
+}
