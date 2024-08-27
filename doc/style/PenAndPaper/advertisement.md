@@ -1,18 +1,18 @@
 # Pen And Paper Overmap tileset
 
-I'm excited to introduce you all the new map tileset. When creating this tileset, I aimed to achieve the following goals:
+I'm excited to introduce you all to my new overmap tileset. When creating this tileset, I aimed to achieve the following goals:
 
 1. **Showcase the quality of Cataclysm: Dark Days Ahead**: This game offers diverse graphics, and it's not necessary to stick to Pixel Art.
-2. **Enhance immersion**: Some time ago, @I-am-Erk mentioned that he envisions the map as hand-drawn, with the survivor drawing it as they progress. I tried to create this feeling.
+2. **Enhance immersion**: Some time ago, @I-am-Erk mentioned that he envisioned the map as hand-drawn, with the survivor drawing it as they progress. I tried to create this feeling.
 3. **Create a clear and understandable map**: Many tilesets, due to canvas size or style limitations, do not allow an unprepared person to understand what is on the screen at first glance.
-4. **Adjust brightness for better gameplay**: Since the game allows changing the main tileset, the main game field can be very dark. Switching to a map with different brightness can cause a blinding effect when playing in the dark. Some time ago, I worked on the SurveyorMap tileset (thanks to @curstwist for the opportunity), where I wanted to convey the effect of a typographic map made according to usgs.gov rules. However, such a map turned out to be very bright for most players. In this tileset, I tried to add the ability to adjust the brightness on the user side.
-5. **Add interactivity**: This tileset suggests that the player, acting as a survivor, interacts more actively with the map.
+4. **Avoid brightness mismatch**: Since the game allows changing the main tileset, the main game field can be very dark. Switching to a bright map can therefore cause a blinding effect when playing in the dark. Some time ago, I worked on the SurveyorMap tileset (thanks to @curstwist for the opportunity), where I wanted to convey the effect of a typographic map made according to usgs.gov rules. However, such a map turned out to be very bright for most players. In this tileset, I tried to lower brightness to better match the main tilesets.
+5. **Encourage interactivity**: This tileset encourages the player, acting as a survivor, to interact more actively with the map.
 
-Below I will show several screenshots, talk about the possible behavior of the player, the current state of the tileset, and known issues.
+Below I will show several screenshots, talk about the possible behavior of the player, demonstrate the current state of the tileset, and list known issues.
 
 ## Gameplay
 
-For example, our player started somewhere on the outskirts of the city. This is what he will see if he climbs onto the roof.
+In this example, our player started somewhere on the outskirts of the city. This is what he will see if he climbs onto the roof.
 
 ![1-starting_screen](./screenshots/1-starting_screen.png)
 
@@ -20,9 +20,9 @@ The first thing that catches the eye is the cursor. It is designed as a pencil, 
 
 A pin with a blue head indicates the player.
 
-We can see several residential houses around us (brown `^`). In the distance, some structures are visible, but we don't know what they are (gray double `^`). If we get closer and our confidence increases, they will either turn into brown signs (residential buildings) or into miniature black drawings (such as the tower south of the player).
+We can see several residential houses around us (brown `^`). In the distance, some structures are visible, but we don't know what they are (gray double `^`). If we get closer and our confidence increases, they will either turn into brown signs (residential buildings) or into miniature black drawings (such as the tower southeast of the player).
 
-Some trees are marked with a pencil, and some with a green pen. This is related to how confident we are in what we see. If we can distinguish a trail from a dense forest up close, we can't do so at a certain distance. To the east of the player, a forest begins, and our confidence in what is there quickly decreases. The lines become more transparent, and the background darker.
+Some trees are marked with a pencil, and some with a green pen. This is related to how confident we are in what we see. While we can distinguish a trail from a dense forest up close, we can't do so at a certain distance. To the east of the player, a forest begins, and our confidence in what is there quickly decreases. The lines become more transparent, and the background darker.
 
 Directly to the south, there is an auto note - a brown letter `D` - which is a `Dermatiks nest`. Probably not the best place to visit. However, between the small forest and this `D`, a tall structure is marked with a white vertical line. It's a radio tower. It would be interesting to climb up.
 
@@ -42,7 +42,7 @@ It might be worth marking a few points on the map:
 Let's draw a line with a green highlighter - this is the starting house. And let's label it - `Home`.
 I'll mark the Dermatiks nest with red diagonal strokes and try to avoid it.
 
-The brown "dot" is an auto note "Dead vegetation," and the yellow one is "Sand patch."
+The brown "dot" is an auto note for "Dead vegetation", and the yellow one is a "Sand patch."
 
 I'll add my own notes - placing yellow question marks where I think there's something interesting and a yellow plus sign on the building I want to visit.
 
@@ -51,7 +51,7 @@ I'll mark the tall structure to the south with a smiley face. And I'll plot a ro
 Oh! I was so focused on drawing the map that I almost missed the paper pinned down by binoculars at the top of this radio tower. I'll use both!
 
 > [!NOTE]
-> I recommed to disable blinking on the map (`B`).
+> I recommend toggling off blinking on the map (`B`).
 
 ![4-towers_with_binoculars](./screenshots/4-towers_with_binoculars.png)
 
