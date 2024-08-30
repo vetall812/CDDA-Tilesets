@@ -9,7 +9,7 @@ When creating this tileset, I aimed to achieve the following goals:
 
 1. **Showcase the quality of Cataclysm: Dark Days Ahead**: This game offers diverse graphics, and it's not necessary to stick to Pixel Art.
 2. **Enhance immersion**: Some time ago, @I-am-Erk (u/I-am-Erk) mentioned that he envisioned the map as hand-drawn, with the survivor drawing it as they progress. I tried to create this feeling.
-3. **Create a clear and understandable map**: Through careful consideration of canvas size and stylistic choice, I create tileset that empower the player to quickly understand the surrounding.
+3. **Create a clear and understandable map**: Through careful consideration of canvas size and stylistic choice, I created a tileset that empowers the player to quickly understand the surrounding.
 4. **Avoid brightness mismatch**: I adjusted brightness to prevent blinding effects when switching from darker main tilesets. It is also possible to adjust it on the player side. Check documentation link below.
 5. **Encourage interactivity**: This tileset encourages the player, acting as a survivor, to interact more actively with the map.
 
