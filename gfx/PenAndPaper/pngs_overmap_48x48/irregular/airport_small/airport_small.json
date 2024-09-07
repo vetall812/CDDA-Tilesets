@@ -139,7 +139,7 @@
   },
   {
     "id": [
-      "s_air_term",
+      "s_air_term", "s_air_term_roof",
       "waiting_area", "waiting_area_roof"
     ],
     "fg": [
@@ -214,7 +214,7 @@
   },
   {
     "id": [
-      "s_air_hangars",
+      "s_air_hangars", "s_air_hangars_roof",
       "hangar", "hangar_roof"
     ],
     "fg": [
